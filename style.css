@@ -47,3 +47,24 @@ button{
 button:hover{
     background-color: green;
 }
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 100px auto;
+    }
+
+    input {
+        width: 90%;
+        margin: 20px 5%;
+        font-size: large;
+    }
+
+    button {
+        width: calc(50% - 10px);
+        margin: 20px 5%;
+        padding: 15px;
+        font-size: large;
+    }
+}
